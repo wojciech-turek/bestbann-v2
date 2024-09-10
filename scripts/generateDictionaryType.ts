@@ -31,7 +31,7 @@ function generateDictionaryType() {
 `;
 
   fs.writeFileSync(outputFile, content);
-  console.log(`Dictionary type generated and written to ${outputFile}`);
+  console.info(`Dictionary type generated and written to ${outputFile}`);
 }
 
 generateDictionaryType();
