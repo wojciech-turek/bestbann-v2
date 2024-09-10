@@ -1,0 +1,42 @@
+{
+  "name": "bestbann-v2",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate-dictionary-type": "tsx scripts/generateDictionaryType.ts"
+  },
+  "dependencies": {
+    "@formatjs/intl-localematcher": "^0.5.4",
+    "accept-language-parser": "^1.5.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.439.0",
+    "negotiator": "^0.6.3",
+    "next": "14.2.8",
+    "next-intl": "^3.19.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "sharp": "^0.33.5",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "@types/accept-language-parser": "^1.5.6",
+    "@types/negotiator": "^0.6.3",
+    "@types/node": "^20.16.5",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
